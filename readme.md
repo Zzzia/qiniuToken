@@ -7,7 +7,7 @@
 [在线post地址](http://119.23.48.151:8080/qiniu/)
 
 
-![img](https://github.com/Zzzia/qiniuToken/qiniu.png)
+![img](https://github.com/Zzzia/qiniuToken/blob/master/qiniu.png)
 
 
 post参数：
