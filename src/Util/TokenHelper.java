@@ -22,7 +22,8 @@ public class TokenHelper {
     }
 
     public String getToken(String bucket) {
-        long deadline = System.currentTimeMillis() / 1000L;
+        //token有效期为一个小时
+        long deadline = System.currentTimeMillis() / 1000L + get1Hour();
         String s = jsonEncoder(bucket, String.valueOf(deadline));
         return this.signWithData(utf8Bytes(s));
     }
@@ -61,6 +62,10 @@ public class TokenHelper {
             var3.printStackTrace();
             throw new IllegalArgumentException(var3);
         }
+    }
+
+    private Long get1Hour(){
+        return 3600L;
     }
 
     private String jsonEncoder(String bucket, String deadline) {
