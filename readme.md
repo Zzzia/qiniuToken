@@ -6,6 +6,12 @@
 
 我的服务器还没有支持https，Android Pie版本默认无法访问http，请设置一下
 
+> 如果post请求失败，可以换成这样的形式试试
+>
+> http://zzzia.net:8080/qiniu/?accessKey=1&secretKey=2&bucket=3
+>
+> 直接把参数写在url里，请求方式设置为post
+
 [Android Pie对http的支持](https://blog.csdn.net/chinaboyliusir/article/details/82760127)
 
 [在线post地址](http://zzzia.net:8080/qiniu/)
