@@ -4,7 +4,7 @@
 >
 > 于是这次，本着学习javaweb的心态，花了一晚上的时间把官方服务器端sdk看了下，了解了加密方式，制作出了java后端token获取工具。虽然只有最基础的功能，但也算够用了，以后如果有需求再增加功能，欢迎大家star,fork
 
-[请求地址](http://zzzia.net/qiniu/)
+[请求地址](http://zzzia.net:8080/qiniu/)
 
 
 参数：
