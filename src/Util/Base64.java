@@ -3,7 +3,7 @@
 // (powered by Fernflower decompiler)
 //
 
-package Util;
+package util;
 
 import java.io.UnsupportedEncodingException;
 

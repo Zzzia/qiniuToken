@@ -4,27 +4,14 @@
 >
 > 于是这次，本着学习javaweb的心态，花了一晚上的时间把官方服务器端sdk看了下，了解了加密方式，制作出了java后端token获取工具。虽然只有最基础的功能，但也算够用了，以后如果有需求再增加功能，欢迎大家star,fork
 
-我的服务器还没有支持https，Android Pie版本默认无法访问http，请设置一下
-
-> 如果post请求失败，可以换成这样的形式试试
->
-> http://zzzia.net:8080/qiniu/?accessKey=1&secretKey=2&bucket=3
->
-> 直接把参数写在url里，请求方式设置为post
-
-[Android Pie对http的支持](https://blog.csdn.net/chinaboyliusir/article/details/82760127)
-
-[在线post地址](http://zzzia.net:8080/qiniu/)
+[请求地址](http://zzzia.net/qiniu/)
 
 
-![img](https://github.com/Zzzia/qiniuToken/blob/master/qiniu.png)
-
-
-post参数：
+参数：
 
 accessKey,secretKey,bucket
 
-post示例：
+参数示例：
 
 ```
 accessKey:iN7NgwM31j4-BZacMjPrOQBs34UG1maYCAQmhdCV
@@ -32,9 +19,17 @@ secretKey:6QTOr2Jg1gcZEWDQXKOGZh5PziC2MCV5KsntT70j
 bucket:qtestbucket
 ```
 
+get方式
+
+[http://zzzia.net:8080/qiniu?accessKey=iN7NgwM31j4-BZacMjPrOQBs34UG1maYCAQmhdCV&secretKey=6QTOr2Jg1gcZEWDQXKOGZh5PziC2MCV5KsntT70j&bucket=qtestbucket](http://zzzia.net:8080/qiniu?accessKey=iN7NgwM31j4-BZacMjPrOQBs34UG1maYCAQmhdCV&secretKey=6QTOr2Jg1gcZEWDQXKOGZh5PziC2MCV5KsntT70j&bucket=qtestbucket)
 
 
-返回示例：
+post方式
+
+![img](https://github.com/Zzzia/qiniuToken/blob/master/qiniu.png)
+
+
+返回：
 
 ```json
 {
